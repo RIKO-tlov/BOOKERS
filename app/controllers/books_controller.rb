@@ -31,6 +31,7 @@ class BooksController < ApplicationController
     book = Book.find(params[:id])
     book.update(book_params)
     redirect_to book_path(book)
+    flash[:notice] = "Book was successfully updated."
   end
 
   def destroy

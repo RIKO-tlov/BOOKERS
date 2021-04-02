@@ -13,8 +13,95 @@
  *= require_tree .
  *= require_self
  */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    line-height: 18px;
+    margin: 30px;
+  }
+
+  h1 {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+ p　{
+    font-size: 13px;
+    line-height: 3;
+    margin-bottom: 15px;
+ }
+
+ .top {
+   font-size: 13px;
+   line-height: 3;
+   margin-left: 50px;
+   margin-bottom: 15px;
+ }
+
+ .start_button {
+   font-size: 13px;
+   line-height: 3;
+   margin-left: 50px;
+   margin-bottom: 15px;
+   color: grey;
+ }
+
+.button {
+  font-size: 13px;
+  line-height: 3;
+  margin-bottom: 15px;
+  color: grey;
 }
+
+ table {
+    line-height: auto;
+    margin-bottom: 30px;
+    border-spacing: 15px 10px;
+  }
+
+ th {
+   font-weight: bold;
+   text-align: center;
+ }
+
+ h2 {
+   display: block;
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 20px;
+ }
+
+ h4 {
+   display: block;
+   font-size: 15px;
+   font-weight: normal;
+ }
+
+ .text-box {
+   margin-bottom: 10px;
+ }
+
+ .book_details {
+   font-weight: bold;
+   margin: 50px;
+ }
+
+ a {
+   font-weight: normal;
+ }
+
+ .notice {
+   color: green;
+   margin: 20px;
+   font-size: 15px;
+
+ }
+
