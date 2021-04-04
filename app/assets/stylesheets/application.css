@@ -94,8 +94,10 @@
    margin: 50px;
  }
 
- a {
-   font-weight: normal;
+ .content {
+    font-weight: normal;
+    display: inline;
+
  }
 
  .notice {
@@ -103,7 +105,8 @@
    margin: 20px;
    font-size: 15px;
  }
-.error-explanation {
+
+ .error-explanation {
     width: 450px;
     border: 2px solid red;
     padding-bottom: 0;
